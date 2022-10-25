@@ -9,6 +9,7 @@ STATIC_PATHS = ['images',
 EXTRA_PATH_METADATA = {
     'extras/favicon.ico': {'path': 'favicon.ico'},
 }
+THEME = 'theme/notmyidea'
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
@@ -21,9 +22,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Prefect.io - Coordinating your dataflows', 'https://prefect.io/'),)
+LINKS_WIDGET_NAME = 'Links'
+LINKS = (("Prefect.io - Coordinating the world's dataflows", 'https://prefect.io/'),)
 
 # Social widget
+SOCIAL_WIDGET_NAME = 'Social'
 SOCIAL = (('GitHub', 'https://github.com/tpdorsey'),
           ('Twitter', 'http://twitter.com/tpdorsey'),
           ('LinkedIn', 'http://www.linkedin.com/in/terrencedorsey'),)

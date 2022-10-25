@@ -1,4 +1,4 @@
-title: My Web Performance Book For O'Reilly
+title: Web Page Size, Speed, and Performance Book For O'Reilly
 date: 2014-07-29
 category: writing
 tags: programming, web
