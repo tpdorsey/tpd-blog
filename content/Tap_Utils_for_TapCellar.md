@@ -1,7 +1,7 @@
 title: Tap Utils for TapCellar
 date: 2015-03-09
-category: programming
-tags: tech, beer
+category: Programming
+tags: Tech, Beer
 summary: If you enjoy exploring craft beer, TapCellar is a fantastic beer journal app for iPhone. I wrote some Ruby scripts to extract interesting information from your TapCellar backups.
 
 

@@ -1,7 +1,7 @@
 title: Coding in Public
 date: 2012-11-01
-category: programming
-tags: tech, opinion
+category: Programming
+tags: Tech, Opinion
 summary: Posting code to GitHub and my first pull request.
 
 

@@ -1,7 +1,7 @@
 title: 10 Westerns
 date: 2011-07-21 
-category: opinion
-tags: movies, art
+category: Opinion
+tags: Movies, Art
 summary: I have opinions about western movies.
 
 

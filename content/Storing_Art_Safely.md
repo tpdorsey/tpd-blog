@@ -1,7 +1,7 @@
 title: Storing Art Safely
 date: 2013-06-04
-category: opinion
-tags: art
+category: Art
+tags: Art, Opinion
 summary: My recommendations for storing art, specifically prints.
 
 

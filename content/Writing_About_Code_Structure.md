@@ -1,7 +1,7 @@
 title: Writing About Code: Structure
 date: 2013-09-30
-category: writing
-tags: tech writing, tutorial
+category: Writing
+tags: Tech, Writing, Tutorial
 summary: Many of us were taught a five-paragraph mode of construction: tell us what you're going to tell us, tell us, then tell us what you told us. This is boring, repetitive, and evil. More notes from a presentation I gave on writing about code.
 
 

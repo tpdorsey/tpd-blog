@@ -1,7 +1,7 @@
 title: Comparing Vintage 55mm Lenses
 date: 2021-09-17
-category: photo  
-tags: photo, lenses, vintage lenses
+category: Photo  
+tags: Photo, Lenses, Vintage Lenses
 summary: A side-by-side comparison of my collection of vintage 70s normal lenses adapted to a mirrorless digital camera.
 
 

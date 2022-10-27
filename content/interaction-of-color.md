@@ -1,7 +1,7 @@
 title: Interaction of Color
 date: 2017-03-25
-category: art
-tags: art, programming, design
+category: Art
+tags: Art, Programming, Design
 summary: Josef Albers _Interaction of Color_ shows that perception of color depends greatly on the surrounding or adjacent colors. I created a web page that creates dynamically generated color swatches demonstrating one of Josef Albers' color interaction exercises.
 
 

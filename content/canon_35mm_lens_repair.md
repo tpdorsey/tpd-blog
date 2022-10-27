@@ -1,7 +1,7 @@
 title: Canon 35mm F2 Focus Ring Repair
 date: 2021-03-22
-category: photo  
-tags: lenses, diy, tutorial
+category: Photo  
+tags: Lenses, Diy, Tutorial
 summary: Gummy or sticky focus rings are a common problem with older Canon EF 35mm F2 lenses. This tutorial provides a simple DIY solution for fixing the gummy focus ring problem.
 
 

@@ -33,9 +33,15 @@
                 {% endfor %}
                 {% endif %}
                 {% if DISPLAY_CATEGORIES_ON_MENU -%}
-                {% for cat, null in categories %}
-                    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="/">All</a>
+                        {% for cat, null in categories %}
+                        <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat.name }}</a>
+                        {% endfor %}
+                    </div>
+                  </li>
                 {% endif %}
                 </ul></nav>
         </header><!-- /#banner -->

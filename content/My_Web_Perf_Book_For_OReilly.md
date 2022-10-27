@@ -1,7 +1,7 @@
 title: Web Page Size, Speed, and Performance Book For O'Reilly
 date: 2014-07-29
-category: writing
-tags: programming, web
+category: Writing
+tags: Programming, Web
 summary: I wrote a book about web development, site performance, and why faster is better.
 
 

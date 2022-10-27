@@ -1,7 +1,7 @@
 title: Coder Interviews at the Code Project
 date: 2011-11-18
-category: programming
-tags: writing, tech
+category: Programming
+tags: Writing, Tech
 summary: I've been working with software developers for a long time now, and one thing I learned along the way is that coders are a diverse bunch. That's one reason why it has been fun and entertaining to launch the "A Coder Interview With..." series of interviews at the Code Project.
 
 

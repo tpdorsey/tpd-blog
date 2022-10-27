@@ -1,7 +1,7 @@
 title: Sublime Text 3 Setup
 date: 2014-11-17 22:05:00
-category: programming
-tags: tech, sublime text, editors, note to self
+category: Programming
+tags: Tech, Sublime Text, Editors, Note To Self
 summary: This is how I set up Sublime Text 3 for both coding and technical writing.
 
 
@@ -35,11 +35,16 @@ And that's pretty much it for my ST3 setup. My work setup has [SublimeLinter 3](
 
 I also don't do much in the way of fancy keybindings. However, here are two that I've found useful.
 
-```
+```json
 [
-  { "keys": ["super+k", "super+t"], "command": "title_case" },
-  { "keys": ["ctrl+alt+super+m"], "command": "set_file_type", "args":{ "syntax" : "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage" } },
-    { "keys": ["ctrl+alt+super+t"], "command": "set_file_type", "args":{ "syntax" : "Packages/Text/Plain Text.tmLanguage" } }
+  { "keys": ["super+k", "super+t"], 
+    "command": "title_case" },
+  { "keys": ["ctrl+alt+super+m"], 
+    "command": "set_file_type", 
+    "args":{ "syntax" : "Packages/Markdown Extended/Syntaxes/Markdown Extended.tmLanguage" } },
+  { "keys": ["ctrl+alt+super+t"], 
+    "command": "set_file_type", 
+    "args":{ "syntax" : "Packages/Text/Plain Text.tmLanguage" } },
 ]
 ```
 
@@ -51,7 +56,7 @@ The second keybinding toggles between text and Markdown syntaxes for the current
 
 Here's my current Markdown Extended.sublime-settings. This is where I set the a default theme for the syntax that's different from the general theme.
 
-```
+```json
 {
   "color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
   "margin": 100,
@@ -61,7 +66,7 @@ Here's my current Markdown Extended.sublime-settings. This is where I set the a 
 
 And here are my general user preferences. I use [Inconsolata](http://levien.com/type/myfonts/inconsolata.html) at a sane size for mature eyes on large or Retina displays. Tabs are two spaces as the goddess intended. You can also see here that I ignore the default Markdown package.
 
-```
+```json
 {
   "color_scheme": "Packages/Colorcoder/PlasticCodeWrap (Colorcoded).tmTheme",
   "font_face": "Inconsolata",

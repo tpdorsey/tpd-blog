@@ -1,7 +1,7 @@
 title: Teaching Programming with Human Functions
 date: 2014-02-08
-category: programming
-tags: tech, stem, ruby
+category: Programming
+tags: Tech, STEM, Ruby
 summary: Functions are a pretty big concept for a new programmer to grasp. Here's a technique I found useful for teaching kids about Ruby functions.
 
 

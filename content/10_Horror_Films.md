@@ -1,7 +1,7 @@
 title: 10 Horror Films
 date: 2013-10-30
-category: opinion
-tags: art, movies
+category: Opinion
+tags: Art, Movies
 summary: I have opinions about horror movies.
 
 

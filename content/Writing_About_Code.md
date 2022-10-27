@@ -1,7 +1,7 @@
 title: Writing About Code: Getting Started
 date: 2013-09-27
-category: writing
-tags: tech writing, tutorial
+category: Writing
+tags: Tech, Writing, Tutorial
 summary: Writing code is job one for most software developers, but learning to write *about* code is almost as important. Notes from a presentation I gave on writing about code.
 
 

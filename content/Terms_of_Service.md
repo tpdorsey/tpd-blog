@@ -1,7 +1,7 @@
 title: Terms of Service
 date: 2013-01-03
-category: opinion
-tags: tech, business
+category: Opinion
+tags: Tech, Business
 summary: Online services are going to steal all of our content and use it to enrich themselves. Or maybe they're not. Some thoughts on copyright, online services, and TOS language.
 
 

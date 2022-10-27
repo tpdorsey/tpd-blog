@@ -1,7 +1,7 @@
 title: Gimme Shelter
 date: 2011-12-15
-category: diy
-tags: diy, kids, fun
+category: DIY
+tags: DIY, Kids, Fun
 summary: An empty box can provide as much engaging play time as the toys that may have come in it. I build playhouses for the kids out of cardboard boxes.
 
 

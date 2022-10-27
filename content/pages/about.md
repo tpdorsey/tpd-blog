@@ -23,7 +23,7 @@ See my [LinkedIn profile](http://www.linkedin.com/in/terrencedorsey) for further
 
 Advocating for progress in my community is a priority. Some projects I've been involved with include:
 
-* [Southern Vermond Comunication Union District (CUD)](https://sovtcud.net/) executive board member, working to bring universal fiber-based broadband to Bennington County and surrounding areas.
+* [Southern Vermont Communication Union District (CUD)](https://sovtcud.net/) executive board member, working to bring universal fiber-based broadband to Bennington County and surrounding areas.
 * [Kode With Klossy](https://www.kodewithklossy.com/) mentor.
 * [FIRST LEGO League](https://www.firstlegoleague.org/) coach.
 * [CodeProject Advisory Board for Women in Technology](http://www.codeproject.com/Articles/542465/CodeProject-Advisory-Board-for-Women-in-Technology) coordinator.

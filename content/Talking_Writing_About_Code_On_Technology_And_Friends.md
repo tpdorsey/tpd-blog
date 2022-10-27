@@ -1,7 +1,7 @@
 title: Talking Writing About Code On Technology And Friends
 date: 2013-10-14
-category: programming
-tags: speaking, tech
+category: Programming
+tags: Speaking, Tech
 summary: At VT Code Camp 5 in September, I had chance to appear as a guest on David Giard's Technology and Friends.
 
 

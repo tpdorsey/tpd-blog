@@ -9,7 +9,8 @@ STATIC_PATHS = ['images',
 EXTRA_PATH_METADATA = {
     'extras/favicon.ico': {'path': 'favicon.ico'},
 }
-THEME = 'theme/notmyidea'
+THEME = 'theme/mynewidea'
+MENUITEMS = [('Home', '/'),]
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'

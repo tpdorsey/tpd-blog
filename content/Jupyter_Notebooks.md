@@ -1,7 +1,7 @@
 title: Tracking Covid-19 with Jupyter Notebooks
 date: 2021-02-15
-category: programming
-tags: jupyter, data, covid, python
+category: Programming
+tags: Jupyter, Data, Covid, Python
 summary: Vermont publishes daily updated Covid-19 data via API. I used that data to do some hands-on learning with Jupyter Notebooks, Pandas dataframes, Matplotlib, and some simple Python to create my own Covid-tracking charts.
 
 

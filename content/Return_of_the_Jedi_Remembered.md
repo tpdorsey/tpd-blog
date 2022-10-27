@@ -1,7 +1,7 @@
 title: Return of the Jedi Remembered
 date: 2013-05-25
-category: opinion
-tags: movies
+category: Opinion
+tags: Movies
 summary: 30 years ago today, two friends and I ditched school to see the very first screening of Return of the Jedi. It turned out to be a significant day in ways I didn't suspect at the time.
 
 

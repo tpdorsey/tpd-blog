@@ -1,7 +1,7 @@
 title: Teaching Kids Programming With RubyStory
 date: 2014-01-22
-category: programming
-tags: tech, stem, ruby
+category: Programming
+tags: Tech, STEM, Ruby
 summary: I wrote some course materials and sample code for teaching the basics of Ruby programming to middle-school kids. The course is called RubyStory and it teaches just enough Ruby to create a choose-your-own-adventure style storytelling game.
 
 

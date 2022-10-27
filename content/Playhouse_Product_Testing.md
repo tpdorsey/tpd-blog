@@ -1,7 +1,7 @@
 title: Playhouse Product Testing
 date: 2011-12-27
-category: diy
-tags: diy, kids, fun
+category: DIY
+tags: DIY, Kids, Fun
 summary: We had some friends and their children over for dinner, and the cardboard playhouses I built got some serious product testing.
 
 

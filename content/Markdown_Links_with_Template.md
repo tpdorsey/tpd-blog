@@ -1,7 +1,7 @@
 title: Markdown Links with Template
 date: 2014-07-16
-category: writing
-tags: tech, tools
+category: Writing
+tags: Tech, Tools
 summary: The Template extension for Chrome is a highly customizable utility for extracting data from a web page to the clipboard in a single action.
 
 
@@ -27,21 +27,29 @@ I'll give you a few examples of Template in action just to give you an idea of w
 
 The simplest template I use regularly just grabs the title of a web page and the URL, something I might grab to paste into an email or Tweet. The template tags are simply `{title} {url}` and it returns simple strings like so:
 
-`Bash $PS1 Generator 2.0 https://www.kirsle.net/wizards/ps1.html`
+```
+Bash $PS1 Generator 2.0 https://www.kirsle.net/wizards/ps1.html`
+```
 
 A similar one creates a simple Markdown link using the `[{title}]({url})` tags. The results look like this:
 
-`[Bash $PS1 Generator 2.0](https://www.kirsle.net/wizards/ps1.html)`
+```
+[Bash $PS1 Generator 2.0](https://www.kirsle.net/wizards/ps1.html)`
+```
 
 Template includes a built-in `{selectionMarkdown}` tag that takes any text you've selected from the page and does some simple Markdown conversion of elements such as links, emphasis, strong and so on. Here's an example:
 
-`Still, [as Marvin and Tammi say](https://www.youtube.com/watch?v=svAs-6MiqxE&feature=kp), ain't nothing like the real thing, baby.`
+```
+Still, [as Marvin and Tammi say](https://www.youtube.com/watch?v=svAs-6MiqxE&feature=kp), ain't nothing like the real thing, baby.`
+```
 
 I haven't tested this extensively to see what breaks the encoding, but it meets my limited expectations.
 
 There's also a `{selection}` tag that just grabs the selected text. I use this, along with the title, URL and a blockquote prefix, for research notes with an attribution.
 
-`> {selection} From: [{title}]({url})`
+```
+> {selection} From: [{title}]({url})`
+```
 
 So I just select some text, invoke the Template action, then paste:
 

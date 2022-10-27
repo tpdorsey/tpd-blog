@@ -1,7 +1,7 @@
 title: Making a Good Cup of Coffee
 date: 2013-08-29 
-category: diy
-tags: tutorial, food, coffee
+category: DIY
+tags: Tutorial, Food, Coffee
 summary: Here are some tips for making a better cup of coffee.
 
 

@@ -9,7 +9,7 @@ Hex values for the generated colors are provided at the bottom of the page.
 
 <style media="screen" type="text/css">
 
-body {background: white;}
+/* body {background: white;} */
 
 #container1 {
     background: silver;

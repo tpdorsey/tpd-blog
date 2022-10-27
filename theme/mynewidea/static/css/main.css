@@ -38,7 +38,8 @@ h6 {font-size: 1em}		/* 14px */
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
-	margin-bottom: .8em;
+	margin-top: 2rem;
+	/* margin-bottom: .8em; */
     font-family: 'Anton', sans-serif;
 }
 
@@ -174,9 +175,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
     margin-bottom: 0;
 }
 
-/*
-	Header
-*****************/
+/* Header */
 #banner {
 	margin: 0 auto;
 	padding: 0.8em 0 0 0;
@@ -198,7 +197,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
-		color: #C74350;
+		color: #fff;
 		text-shadow: none;
 	}
 
@@ -221,19 +220,22 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 
 	#banner nav ul {
-		list-style: none; 
+		list-style-type: none; 
 		margin: 0 auto; 
+		padding: 0;
+		overflow: hidden;
 		max-width: 800px;
 	}
 	#banner nav li {
 		float: left; 
-		display: inline; 
+		/* display: inline-block;  */
 		margin: 0;
-		font-family: 'Anton', sans-serif;
+		font-family: 'Roboto', sans-serif;
+		color: #b3b3b3;
 	}
 
-	#banner nav a:link, #banner nav a:visited {
-		color: #fff;
+	#banner nav a:link, #banner nav a:visited, .dropbtn {
+		color: #b3b3b3;
 		display: inline-block;
 		height: 30px;
 		padding: 5px 1.5em;
@@ -241,7 +243,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
-		background: #C74451;
+		/* background: #C74451; */
 		color: #fff;
 		text-shadow: none !important;
 	}
@@ -310,7 +312,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 #extras h2 {
 	color: #3f3f3f;
 	font-size: 1.429em;
-	margin-bottom: .25em;
+	/* margin-bottom: .25em; */
 	padding: 0 3px;
 }
 
@@ -324,56 +326,54 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 
 #extras a:hover, #extras a:active {color: #fff;}
 
-	/* Blogroll */
-	#extras .blogroll {
-		float: left;
-		max-width: 615px;
-	}
+/* Blogroll */
+#extras .blogroll {
+	float: left;
+	max-width: 615px;
+}
 
-	#extras .blogroll li {float: left; margin: 0 20px 0 0; max-width: 185px;}
+#extras .blogroll li {float: left; margin: 0 20px 0 0; max-width: 185px;}
 
-	/* Social */
-	#extras .social {
-		float: right;
-		max-width: 175px;
-	}
+/* Social */
+#extras .social {
+	float: right;
+	max-width: 175px;
+}
 
-	#extras div[class='social'] a {
-		background-repeat: no-repeat;
-		background-position: 3px 6px;
-		padding-left: 25px;
-	}
+#extras div[class='social'] a {
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	padding-left: 25px;
+}
 
-		/* Icons */
-		.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
-		.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
-		.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
-		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
-		.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
-		.social a[href*='github.com'],
-		.social a[href*='git.io'] {
-			background-image: url('../images/icons/github.png');
-			background-size: 16px 16px;
-		}
-		.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
-		.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
-		.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
-		.social a[href*='news.ycombinator.com'],
-		.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
-		.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-		.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
-		.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
-		.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
-		.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
-		.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
-		.social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
-		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
-		.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
-		.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
+/* Icons */
+.social a[href*='about.me'] {background-image: url('../images/icons/aboutme.png');}
+.social a[href*='bitbucket.org'] {background-image: url('../images/icons/bitbucket.png');}
+.social a[href*='delicious.com'] {background-image: url('../images/icons/delicious.png');}
+.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');}
+.social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
+.social a[href*='github.com'],
+.social a[href*='git.io'] {
+	background-image: url('../images/icons/github.png');
+	background-size: 16px 16px;
+}
+.social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
+.social a[href*='plus.google.com'] {background-image: url('../images/icons/google-plus.png');}
+.social a[href*='groups.google.com'] {background-image: url('../images/icons/google-groups.png');}
+.social a[href*='news.ycombinator.com'],
+.social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
+.social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
+.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
+.social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
+.social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
+.social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
+.social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
+.social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
+.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+.social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
+.social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 
-/*
-	About
-*****************/
+/* About */
 #about {
 	background: #fff;
 	font-style: normal;
@@ -418,78 +418,121 @@ li:first-child .hentry, #content > .hentry {border: 0; margin: 0;}
 
 .hentry .post-info * {font-style: normal;}
 
-	/* Content */
-	.hentry footer {margin-bottom: 2em;}
-	.hentry footer address {display: inline;}
-	#posts-list footer address {display: block;}
+/* Content */
+.hentry footer {margin-bottom: 2em;}
+.hentry footer address {display: inline;}
+#posts-list footer address {display: block;}
 
-	/* Blog Index */
-	#posts-list {list-style: none; margin: 0;}
-	#posts-list .hentry {padding-left: 10px; position: relative;}
+/* Blog Index */
+#posts-list {list-style: none; margin: 0;}
+#posts-list .hentry {padding-left: 10px; position: relative;}
 
-	/* #posts-list footer {
-		left: 10px;
-		position: relative;
-        float: left;
-		top: 0.5em;
-		max-width: 190px;
-	} */
+/* #posts-list footer {
+	left: 10px;
+	position: relative;
+	float: left;
+	top: 0.5em;
+	max-width: 190px;
+} */
 
-	#posts-list footer {
-		position: relative;
-        float: left;
-		top: 0.5em;
-	}
+#posts-list footer {
+	position: relative;
+	float: left;
+	top: 0.5em;
+}
 
 
-	/* About the Author */
-	#about-author {
-		background: #f9f9f9;
-		clear: both;
-		font-style: normal;
-		margin: 2em 0;
-		padding: 10px 20px 15px 20px;
+/* About the Author */
+#about-author {
+	background: #f9f9f9;
+	clear: both;
+	font-style: normal;
+	margin: 2em 0;
+	padding: 10px 20px 15px 20px;
 
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-	}
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
 
-	#about-author strong {
-		color: #C64350;
-		clear: both;
-		display: block;
-		font-size: 1.429em;
-	}
+#about-author strong {
+	color: #C64350;
+	clear: both;
+	display: block;
+	font-size: 1.429em;
+}
 
-	#about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
+#about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
 
-	/* Comments */
-	#comments-list {list-style: none; margin: 0 1em;}
-	#comments-list blockquote {
-		background: #f8f8f8;
-		clear: both;
-		font-style: normal;
-		margin: 0;
-		padding: 15px 20px;
+/* Comments */
+#comments-list {list-style: none; margin: 0 1em;}
+#comments-list blockquote {
+	background: #f8f8f8;
+	clear: both;
+	font-style: normal;
+	margin: 0;
+	padding: 15px 20px;
 
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-	}
-	#comments-list footer {color: #888; padding: .5em 1em 0 0; text-align: right;}
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#comments-list footer {color: #888; padding: .5em 1em 0 0; text-align: right;}
 
-	#comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
+#comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
 
-	/* Add a Comment */
-	#add-comment label {clear: left; float: left; text-align: left; max-width: 150px;}
-	#add-comment input[type='text'],
-	#add-comment input[type='email'],
-	#add-comment input[type='url'] {float: left; max-width: 200px;}
+/* Add a Comment */
+#add-comment label {clear: left; float: left; text-align: left; max-width: 150px;}
+#add-comment input[type='text'],
+#add-comment input[type='email'],
+#add-comment input[type='url'] {float: left; max-width: 200px;}
 
-	#add-comment textarea {float: left; height: 150px; max-width: 495px;}
+#add-comment textarea {float: left; height: 150px; max-width: 495px;}
 
-	#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
+#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
 
-	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
-	#add-comment * {margin-bottom: .5em;}
+#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
+#add-comment * {margin-bottom: .5em;}
+
+/* Dropdown */
+/* #banner nav li a, .dropbtn {
+	display: inline-block;
+	color: rgb(14, 161, 104);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+} */
+
+/* li a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+} */
+
+li.dropdown {
+	display: inline-block;
+}
+
+#banner nav .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+#banner nav .dropdown-content a {
+	color: #3f3f3f;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+#banner nav .dropdown-content a:hover {
+	background-color: #3f3f3f;
+	color: #f9f9f9;
+}
+
+#banner nav .dropdown:hover .dropdown-content {
+	display: block;
+}
