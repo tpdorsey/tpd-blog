@@ -1,5 +1,5 @@
 title: Who Is a Replicant in Blade Runner?
-date: 2022-12-01
+date: 2022-12-10
 category: Art
 tags: Movies
 summary: There's still a lot of controversy about whether Deckard is a replicant in Blade Runner. You can interpret the film as you like, but I think costume design conveys a lot about what the original production team thought about the characters. 
@@ -8,7 +8,7 @@ summary: There's still a lot of controversy about whether Deckard is a replicant
 
 There's still a lot of controversy about whether Deckard is a replicant in the movie _Blade Runner_. You can interpret the film as you like &mdash; and I have my own strong feelings about it &mdash; but I think costume design conveys a lot about what the original production team thought about the characters. 
 
-For this post, I won't be getting into the history of "Deckard is a replicant" except to say that's never been my interpretation of any version of the film, and Deckard is _not_ a an android in the Philip K. Dick novel from which _Blade Runner_ was adapted.
+For this post, I won't be getting into the history of "Deckard is a replicant" except to say that's never been my interpretation of any version of the film, and Deckard is _not_ an android in the Philip K. Dick novel from which _Blade Runner_ was adapted.
 
 What I'd like to lay out here is some evidence from the _Blade Runner_ production design that appears to clearly delineate who is human and who is replicant. Or, more specifically, to delineate the "human-ness" of a character within a given scene.
 
