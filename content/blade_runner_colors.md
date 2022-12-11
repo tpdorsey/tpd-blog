@@ -22,7 +22,7 @@ We first meet Blade Runner Holden (in a beige or tan suit) giving the Voight-Kam
 
 Brown, earthy colors are quickly associated with cops here &mdash; humans who do dirty work.
 
-Deckard (eating noodles) is wearing a brown overcoat, though with an indigo shirt peeking out. Bryant is wearing shades of beige and brown. 
+Deckard (eating noodles) is wearing a brown overcoat, though with a maroon shirt peeking out. Bryant is wearing shades of beige and brown. 
 
 Gaff, like the others, wears a brown coat, but underneath: blue, pink, yellow/gold &mdash; intricate patterns, a rose on his lapel. Maybe the most vibrant palette of any character in the film. Is Gaff the most human, the most internally vibrant? He "knows" things, or intuits them, and leaves clues. 
 
@@ -71,7 +71,7 @@ Within this vibrant scene: don't be fooled by Zhora's sparkles, she takes off he
 
 ![Zhora]({static}/images/br/zhora.png)
 
-Rachel on the run, shows up at Deckard's apartment wearing a grayscale suit. Lips still read, but her makeup is coming off.
+Rachel on the run, shows up at Deckard's apartment wearing a grayscale suit. Lips still red, but her makeup is coming off.
 
 ![Rachel's memories]({static}/images/br/rachel2.png)
 
@@ -109,7 +109,7 @@ What's my point? In almost every scene, we see consistent costuming by which hum
 
 As I mentioned earlier, there's one potential contradiction, which is the white costumes worn by Adbdul Ben Hassan early in the film and Tyrell later in film. I think this use of white makes a different point, which is that of the holy creator. Both Hassan and Tyrell are, in a sense, gods, bringing life to their creations.
 
-Note that in Tyrell's room, he references the prodigal son story from scripture, while the room is lit by candles, perhaps a reference to Prometheus or Icarus?
+Note that in Tyrell's room, he references the prodigal son story from scripture, and the room is lit by candles, perhaps a reference to Prometheus or Icarus?
 
 The white Tyrell costume in this scene also connects back to the first scene in which Leon appears to be wearing all white, and the white dove in Roy's final scene.
 
