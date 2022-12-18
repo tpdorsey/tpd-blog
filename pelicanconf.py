@@ -1,5 +1,5 @@
 AUTHOR = 'Terrence Dorsey'
-SITENAME = 'tpd'
+SITENAME = 'TPD'
 SITEURL = ''
 
 PATH = 'content'

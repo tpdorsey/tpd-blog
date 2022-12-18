@@ -5,7 +5,7 @@ tags: Tech, Beer
 summary: If you enjoy exploring craft beer, TapCellar is a fantastic beer journal app for iPhone. I wrote some Ruby scripts to extract interesting information from your TapCellar backups.
 
 
-**Note: TapCellar is no more. Pour one out for TapCellar.**
+<b>Note: TapCellar is no more. Pour one out for TapCellar.</b>
 
 If you enjoy exploring craft beer, [TapCellar](http://tapcellar.com/), created by my friends [Gabe](http://www.macdrifter.com/) and [Jeff](http://technologynotes.net/), is a fantastic beer journal app for iPhone. Rate the beers you've tried, share recommendations with friends, keep a shopping list, even track the contents of your beer cellar. It's a great app. Check it out.
 
