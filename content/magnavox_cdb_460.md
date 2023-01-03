@@ -16,4 +16,4 @@ This one was non-operative when acquired. It has since been restored: replacing 
 
 ![Tray and transport]({static}/images/cdp/460-tray.png)
 
-![CDM2/10 transport]({static}/images/cdp/460-transport.png)
+![CDM-2/10 transport]({static}/images/cdp/460-transport.png)
