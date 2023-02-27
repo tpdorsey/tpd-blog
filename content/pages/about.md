@@ -6,6 +6,10 @@ I am a Technical Writer, Editor, and Content Strategist specializing in technolo
 
 Most recently, I was Senior Technical Writer at [Prefect.io](https://prefect.io), writing designing, and publishing [user guides and API documentation](https://docs.prefect.io/) for the Prefect open-source Python workflows library and Prefect Cloud services.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">During the first few days with <a href="https://twitter.com/PrefectIO?ref_src=twsrc%5Etfw">@PrefectIO</a>, my impressions: <br><br> - very well-documented platform.<br>- Few dependencies compared to Airflow.<br>- I was able to migrate a few days in a few hours... <br><br>So far, so good; I can&#39;t complain.</p>&mdash; Espoir Murhabazi (@esp_py) <a href="https://twitter.com/esp_py/status/1628540616299651074?ref_src=twsrc%5Etfw">February 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<!-- [![Positive feedback for Prefect documentation]({static}/images/esp_py-prefect-docs.png)](https://twitter.com/esp_py/status/1628540616299651074) -->
+
 Past experience includes work with:
 
 * ESPN
