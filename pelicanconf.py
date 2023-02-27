@@ -30,7 +30,8 @@ LINKS = (("Prefect.io - Coordinating the world's dataflows", 'https://prefect.io
 SOCIAL_WIDGET_NAME = 'Social'
 SOCIAL = (('GitHub', 'https://github.com/tpdorsey'),
           ('Twitter', 'http://twitter.com/tpdorsey'),
-          ('LinkedIn', 'http://www.linkedin.com/in/terrencedorsey'),)
+          ('LinkedIn', 'http://www.linkedin.com/in/terrencedorsey'),
+          ('Mastodon', 'https://vermont.masto.host/@tpdorsey'))
 
 DEFAULT_PAGINATION = False
 
