@@ -6,7 +6,7 @@ I am a Technical Writer, Editor, and Content Strategist specializing in technolo
 
 Most recently, I was Senior Technical Writer at [Prefect.io](https://prefect.io), writing, designing, and publishing user guides, tutorials, and API documentation for the [Prefect open-source Python dataflow orchestration engine](https://github.com/PrefectHQ/prefect) and Prefect Cloud service.
 
-(Note: the last documentation release I worked on, [2.8.4](https://incomparable-liger-8577f9.netlify.app/), is hosted for posterity at [https://incomparable-liger-8577f9.netlify.app/](https://incomparable-liger-8577f9.netlify.app/).)
+(Note: the last documentation release I worked on, [2.8.4](https://prefect-284-docs.netlify.app/), is hosted for posterity at [https://prefect-284-docs.netlify.app/](https://prefect-284-docs.netlify.app/).)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">During the first few days with <a href="https://twitter.com/PrefectIO?ref_src=twsrc%5Etfw">@PrefectIO</a>, my impressions: <br><br> - very well-documented platform.<br>- Few dependencies compared to Airflow.<br>- I was able to migrate a few days in a few hours... <br><br>So far, so good; I can&#39;t complain.</p>&mdash; Espoir Murhabazi (@esp_py) <a href="https://twitter.com/esp_py/status/1628540616299651074?ref_src=twsrc%5Etfw">February 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
