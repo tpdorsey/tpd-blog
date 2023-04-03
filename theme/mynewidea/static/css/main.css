@@ -16,10 +16,64 @@
 
 /***** Global *****/
 /* Body */
-body {
+/* body {
     background: #b3b3b3;
     color: #000305;
-    font-size: 1rem; 
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.429;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+} */
+
+body {
+    /* background-image: linear-gradient(
+    180deg,
+    hsl(226deg 100% 40%) 0%,
+    hsl(220deg 100% 43%) 7%,
+    hsl(215deg 100% 45%) 15%,
+    hsl(211deg 100% 47%) 24%,
+    hsl(206deg 100% 49%) 36%,
+    hsl(206deg 100% 56%) 51%,
+    hsl(251deg 77% 73%) 65%,
+    hsl(308deg 56% 62%) 77%,
+    hsl(338deg 83% 63%) 87%,
+    hsl(2deg 79% 61%) 94%,
+    hsl(31deg 100% 39%) 100%
+    ); */
+    /* background: linear-gradient(
+    to top,
+    hsl(240deg 100% 20%) 0%,
+    hsl(289deg 100% 21%) 11%,
+    hsl(315deg 100% 27%) 22%,
+    hsl(329deg 100% 36%) 33%,
+    hsl(337deg 100% 43%) 44%,
+    hsl(357deg 91% 59%) 56%,
+    hsl(17deg 100% 59%) 67%,
+    hsl(34deg 100% 53%) 78%,
+    hsl(45deg 100% 50%) 89%,
+    hsl(55deg 100% 50%) 100%
+    ); */
+	background-image: linear-gradient(
+	180deg,
+	hsl(198deg 100% 84%) 0%,
+	hsl(200deg 85% 75%) 11%,
+	hsl(202deg 79% 66%) 22%,
+	hsl(203deg 75% 56%) 33%,
+	hsl(202deg 100% 43%) 44%,
+	hsl(206deg 100% 40%) 56%,
+	hsl(212deg 100% 38%) 67%,
+	hsl(217deg 100% 35%) 78%,
+	hsl(225deg 100% 31%) 89%,
+	hsl(242deg 100% 26%) 100%
+	);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #3f3f3f;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     line-height: 1.429;
     margin: 0;
@@ -36,11 +90,11 @@ h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+	font-weight: 900;
 	line-height: 1.1;
 	margin-top: 2rem;
 	/* margin-bottom: .8em; */
-    font-family: 'Passion One', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -103,7 +157,7 @@ ol {
     margin-bottom: 1px;
 }
 
-.readmore { 
+.readmore {
 	float: right;
 }
 
@@ -115,9 +169,9 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color:  rgb(238, 238, 238); 
-	padding: 10px; 
-	margin: 10px; 
+pre{background-color:  rgb(238, 238, 238);
+	padding: 10px;
+	margin: 10px;
 	overflow: auto;
 	font-family: 'Fira Code', monospace;
 }
@@ -199,7 +253,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #3f3f3f;
 		display: block;
-		font-weight: bold;
+		font-weight: 900;
 		margin: 0 0 0 .2em;
 		text-decoration: none;
 	}
@@ -228,14 +282,14 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 
 	#banner nav ul {
-		list-style-type: none; 
-		margin: 0 auto; 
+		list-style-type: none;
+		margin: 0 auto;
 		padding: 0;
 		overflow: hidden;
 		max-width: 800px;
 	}
 	#banner nav li {
-		float: left; 
+		float: left;
 		/* display: inline-block;  */
 		margin: 0;
 		font-family: 'Roboto', sans-serif;
@@ -243,7 +297,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 
 	#banner nav a:link, #banner nav a:visited, .dropbtn {
-		color: #b3b3b3;
+		color: #fff;
 		display: inline-block;
 		height: 30px;
 		padding: 5px 1.5em;
@@ -318,14 +372,14 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
-	color: #3f3f3f;
+	color: #fff;
 	font-size: 1.429em;
 	/* margin-bottom: .25em; */
 	padding: 0 3px;
 }
 
 #extras a:link, #extras a:visited {
-	color: #444;
+	color: #fff;
 	display: block;
 	border-bottom: 1px solid #F4E3E3;
 	text-decoration: none;
@@ -340,7 +394,10 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	max-width: 615px;
 }
 
-#extras .blogroll li {float: left; margin: 0 20px 0 0; max-width: 185px;}
+#extras .blogroll li {
+	/* float: left;  */
+	margin: 0 20px 0 0;
+	max-width: 185px;}
 
 /* Social */
 #extras .social {
@@ -362,7 +419,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 .social a[href*='gitorious.org'] {background-image: url('../images/icons/gitorious.png');}
 .social a[href*='github.com'],
 .social a[href*='git.io'] {
-	background-image: url('../images/icons/github.png');
+	background-image: url('../images/icons/github-white.png');
 	background-size: 16px 16px;
 }
 .social a[href*='gittip.com'] {background-image: url('../images/icons/gittip.png');}
@@ -371,13 +428,23 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 .social a[href*='news.ycombinator.com'],
 .social a[href*='hackernewsers.com'] {background-image: url('../images/icons/hackernews.png');}
 .social a[href*='last.fm'], .social a[href*='lastfm.'] {background-image: url('../images/icons/lastfm.png');}
-.social a[href*='linkedin.com'] {background-image: url('../images/icons/linkedin.png');}
+.social a[href*='linkedin.com'] {
+	background-image: url('../images/icons/linkedin-white.png');
+	background-size: 16px 16px;
+}
+.social a[href*='masto.host'] {
+	background-image: url('../images/icons/mastodon.png');
+	background-size: 16px 16px;
+}
 .social a[href*='reddit.com'] {background-image: url('../images/icons/reddit.png');}
 .social a[type$='atom+xml'], .social a[type$='rss+xml'] {background-image: url('../images/icons/rss.png');}
 .social a[href*='slideshare.net'] {background-image: url('../images/icons/slideshare.png');}
 .social a[href*='speakerdeck.com'] {background-image: url('../images/icons/speakerdeck.png');}
 .social a[href*='stackoverflow.com'] {background-image: url('../images/icons/stackoverflow.png');}
-.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter.png');}
+.social a[href*='twitter.com'] {
+	background-image: url('../images/icons/twitter-white.png');
+	background-size: 16px 16px;
+}
 .social a[href*='vimeo.com'] {background-image: url('../images/icons/vimeo.png');}
 .social a[href*='youtube.com'] {background-image: url('../images/icons/youtube.png');}
 
@@ -424,7 +491,7 @@ li:first-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	text-decoration: none;
 }
 .entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
-.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #3f3f3f;}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}

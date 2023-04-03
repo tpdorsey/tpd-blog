@@ -8,7 +8,7 @@
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Fira+Code&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         {% if FEED_ALL_ATOM %}
         <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
@@ -80,7 +80,9 @@
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Powered by <a href="https://getpelican.com/">Pelican</a> and <a href="https://www.python.org/">Python</a>.<br>
-                Based on a theme by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>.
+                Based on a theme by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>.<br>
+                Background created with Josh W. Comeau's <a href="https://www.joshwcomeau.com/gradient-generator/">Gradient Generator</a>.<br>
+
                 </address><!-- /#about -->
 
         </footer><!-- /#contentinfo -->

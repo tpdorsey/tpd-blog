@@ -1,9 +1,9 @@
 AUTHOR = 'Terrence Dorsey'
-SITENAME = 'TPD'
+SITENAME = 'Terrence Dorsey'
 SITEURL = ''
 
 PATH = 'content'
-STATIC_PATHS = ['images', 
+STATIC_PATHS = ['images',
                 'extras',
                 'files',]
 EXTRA_PATH_METADATA = {
@@ -24,7 +24,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS_WIDGET_NAME = 'Links'
-LINKS = (("Prefect.io - Coordinating the world's dataflows", 'https://prefect.io/'),)
+LINKS = (("Prefect.io - Coordinating the world's dataflows", 'https://prefect.io/'),
+         ("Pydantic - Data validation and settings management using Python type hinting", 'https://pydantic-docs.helpmanual.io/'),)
 
 # Social widget
 SOCIAL_WIDGET_NAME = 'Social'
