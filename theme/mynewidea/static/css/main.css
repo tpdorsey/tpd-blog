@@ -28,45 +28,20 @@
 } */
 
 body {
-    /* background-image: linear-gradient(
-    180deg,
-    hsl(226deg 100% 40%) 0%,
-    hsl(220deg 100% 43%) 7%,
-    hsl(215deg 100% 45%) 15%,
-    hsl(211deg 100% 47%) 24%,
-    hsl(206deg 100% 49%) 36%,
-    hsl(206deg 100% 56%) 51%,
-    hsl(251deg 77% 73%) 65%,
-    hsl(308deg 56% 62%) 77%,
-    hsl(338deg 83% 63%) 87%,
-    hsl(2deg 79% 61%) 94%,
-    hsl(31deg 100% 39%) 100%
-    ); */
-    /* background: linear-gradient(
-    to top,
-    hsl(240deg 100% 20%) 0%,
-    hsl(289deg 100% 21%) 11%,
-    hsl(315deg 100% 27%) 22%,
-    hsl(329deg 100% 36%) 33%,
-    hsl(337deg 100% 43%) 44%,
-    hsl(357deg 91% 59%) 56%,
-    hsl(17deg 100% 59%) 67%,
-    hsl(34deg 100% 53%) 78%,
-    hsl(45deg 100% 50%) 89%,
-    hsl(55deg 100% 50%) 100%
-    ); */
 	background-image: linear-gradient(
-	180deg,
-	hsl(198deg 100% 84%) 0%,
-	hsl(200deg 85% 75%) 11%,
-	hsl(202deg 79% 66%) 22%,
-	hsl(203deg 75% 56%) 33%,
-	hsl(202deg 100% 43%) 44%,
-	hsl(206deg 100% 40%) 56%,
-	hsl(212deg 100% 38%) 67%,
-	hsl(217deg 100% 35%) 78%,
-	hsl(225deg 100% 31%) 89%,
-	hsl(242deg 100% 26%) 100%
+		180deg,
+		hsl(240deg 100% 20%) 0%,
+		hsl(236deg 92% 25%) 10%,
+		hsl(231deg 90% 30%) 22%,
+		hsl(226deg 94% 34%) 36%,
+		hsl(223deg 97% 38%) 50%,
+		hsl(224deg 90% 43%) 63%,
+		hsl(224deg 86% 48%) 74%,
+		hsl(223deg 94% 53%) 83%,
+		hsl(249deg 95% 68%) 90%,
+		hsl(271deg 87% 72%) 95%,
+		hsl(289deg 80% 77%) 98%,
+		hsl(308deg 100% 86%) 100%
 	);
     height: 100%;
     margin: 0;
@@ -251,7 +226,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #3f3f3f;
+		color: #ffffff;
 		display: block;
 		font-weight: 900;
 		margin: 0 0 0 .2em;
@@ -267,7 +242,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 
 	/* Main Nav */
 	#banner nav {
-		background: #3f3f3f;
+		background: #fff;
 		font-size: 1.143em;
 		overflow: auto;
 		line-height: 30px;
@@ -297,7 +272,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	}
 
 	#banner nav a:link, #banner nav a:visited, .dropbtn {
-		color: #fff;
+		color: #3f3f3f;
 		display: inline-block;
 		height: 30px;
 		padding: 5px 1.5em;
@@ -306,7 +281,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
 		/* background: #C74451; */
-		color: #fff;
+		color: #3f3f3f;
 		text-shadow: none !important;
 	}
 
@@ -359,9 +334,9 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 	padding: 20px 20px;
 	max-width: 760px;
 
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 /*
@@ -397,7 +372,7 @@ div.figure p.caption, figure p.caption { /* margin provided by figure */
 #extras .blogroll li {
 	/* float: left;  */
 	margin: 0 20px 0 0;
-	max-width: 185px;}
+	max-width: 50%;}
 
 /* Social */
 #extras .social {

@@ -24,8 +24,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS_WIDGET_NAME = 'Links'
-LINKS = (("Prefect.io - Coordinating the world's dataflows", 'https://prefect.io/'),
-         ("Pydantic - Data validation and settings management using Python type hinting", 'https://pydantic-docs.helpmanual.io/'),)
+LINKS = (("Game Data Pros: Driving targeted optimization of player engagement and monetization.", 'https://gamedatapros.com/'),
+         ("Southern Vermont CUD: Bringing high-speed internet to Southern Vermont", 'https://sovtcud.net//'),)
 
 # Social widget
 SOCIAL_WIDGET_NAME = 'Social'
